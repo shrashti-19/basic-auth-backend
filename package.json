@@ -1,0 +1,21 @@
+{
+  "name": "basic-auth-backend",
+  "version": "1.0.0",
+  "description": "Basic Auth Backend System — A Node.js &amp; Express API implementing user sign-up and sign-in with password hashing, validation, and MongoDB storage. Built as part of TechLearn’s Backend Developer challenge.",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "dev":"nodemon app.js",
+    "test": "echo \"Error : no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shrashti",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.14.3"
+  }
+}
